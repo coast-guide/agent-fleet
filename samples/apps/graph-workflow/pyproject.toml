@@ -1,0 +1,14 @@
+[project]
+name = "graph-workflow"
+version = "0.1.0"
+description = "Graph based agentic workflows"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]~=0.116.1",
+]
+
+[dependency-groups]
+dev = [
+    "ruff~=0.12.8",
+]
